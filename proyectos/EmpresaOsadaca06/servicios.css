@@ -1,0 +1,300 @@
+/*logos*/
+
+html {
+	font-size: 16px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 36%;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .6rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-whatsapp {
+	background: #25D366;
+}
+
+.icon-instagram {
+	background: #C13584;
+}
+
+.icon-linkedin {
+	background: #0e76a8;
+}
+
+.icon-tiktok {
+    background: #000000;
+}
+
+.icon-youtube{
+    background: #FF0000;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+@media screen and (min-width:672px){
+    .social-bar{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    .social-bar{
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .social-bar{
+       font-size: 17px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+   .social-bar{
+        font-size: 12px;
+    }
+}
+
+/*media queris*/
+
+@media screen and (max-width:1400px){
+    .encabezado{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1401px){
+    .header{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width:769px){
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:771px){
+    .contact li{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .contact{
+        margin-top: 1%;
+    }
+}
+
+/*fondo*/
+
+@media screen and (min-width:1401px){
+    .fondo{
+        padding-top: 11em;
+    }
+}
+
+@media screen and (min-width:517px) and (max-width:1401px){
+    .fondo{
+        padding-top: 6em;
+    }
+}
+
+@media screen and (min-width:361px) and (max-width:517px){
+    .fondo{
+        padding-top: 5em;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:361px){
+    .fondo{
+        padding-top: 4em;
+    }
+}
+
+/*contenido*/
+
+@media screen and (min-width:10px) and (max-width:2010px){
+    .conttitulo{
+        height: 20%;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .info{
+        width: 35%;
+        margin: 3% 3%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    .info{
+        width: 50%;
+        margin: 3% 3%;
+    }
+
+    .infogeneral{
+        margin: 5% 0;
+    }
+}
+
+@media screen and (min-width:10px) and (max-width:600px){
+    .info{
+        width: 80%;
+        margin: 10% 3%;
+    }
+
+    .infogeneral{
+        margin: 10% 0;
+    }
+}
+
+/*footer*/
+
+@media screen and (max-width:781px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .derechos{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:672px){
+    .footer{
+        font-size: 20px;
+    }
+
+    .footer h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    .footer{
+        font-size: 15px;
+    }
+
+    .footer h4{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .footer{
+        font-size: 10px;
+    }
+
+    .footer h4{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+    .footer{
+        font-size: 7px;
+    }
+
+    .footer h4{
+        font-size: 7px;
+    }
+}
+
+/*animacion*/
+
+.contmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contmain section{
+   position:relative;
+    width: 70%;
+    height: 98%;
+    cursor: pointer;
+    
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.contmain section img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    will-change: transform;
+}
+.contmain section .cont{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contmain section:hover > .cont {
+    opacity: 1;
+    visibility: visible;
+}
+.contmain section:hover > .cont h5{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contmain section:hover > img{
+    transform: scale(1.3);
+}
+.contmain section .capa h5{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.contmain section .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}

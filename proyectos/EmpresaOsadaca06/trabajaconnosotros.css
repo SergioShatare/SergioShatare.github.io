@@ -1,0 +1,414 @@
+/*logos*/
+
+html {
+    font-size: 16px;
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 36%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .6rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+}
+
+.icon-whatsapp {
+    background: #25D366;
+}
+
+.icon-instagram {
+    background: #C13584;
+}
+
+.icon-linkedin {
+    background: #0e76a8;
+}
+
+.icon-tiktok {
+    background: #000000;
+}
+
+.icon-youtube{
+    background: #FF0000;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+@media screen and (min-width:672px){
+    .social-bar{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    .social-bar{
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .social-bar{
+       font-size: 17px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+   .social-bar{
+        font-size: 12px;
+    }
+}
+
+/*footer*/
+
+@media screen and (max-width:781px){
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .derechos{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:672px){
+    .footer{
+        font-size: 20px;
+    }
+
+    .footer h4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    .footer{
+        font-size: 15px;
+    }
+
+    .footer h4{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .footer{
+        font-size: 10px;
+    }
+
+    .footer h4{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+    .footer{
+        font-size: 7px;
+    }
+
+    .footer h4{
+        font-size: 7px;
+    }
+}
+
+/*media queris*/
+
+@media screen and (max-width:1400px){
+    .encabezado{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1401px){
+    .header{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width:769px){
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:771px){
+    .contact li{
+        display: inline;
+    }
+}
+
+@media screen and (max-width:1400px){
+    .contact{
+        margin-top: 1%;
+    }
+}
+
+/*contenido*/
+
+
+@media screen and (max-width: 754px){
+    .formulario{
+        justify-content: center;
+      
+        display:inline-table;    
+    
+    }
+}
+
+.formulario{
+    width: 90%;
+}
+
+.contact_form{  
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    padding-right: 30px;
+    max-width: 600px;
+    
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 90%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #3179E1; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 90%;
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #3179E1; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:8px;  
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #3179E1; 
+    border-color: #3179E1; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 90%;   
+    cursor: pointer;
+  }
+  button:hover
+  {
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+  background-color: skyblue;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #3179E1; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{ 
+    text-align: letf; 
+    color: #3179E1;
+  }
+  
+  
+  h3{
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #3179E1;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #3179E1;
+  }
+
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #3179E1;
+  }
+
+/*formulario*/
+@media screen and (max-width:781px){
+    h1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:672px){
+    h1{
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    h1{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    h1{
+        font-size: 25px;
+    }
+
+    .footer h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+    h1{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+}
+/*Form2*/
+@media screen and (max-width:781px){
+    h3{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:672px){
+    h3{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:671px){
+    h3{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    h3{
+        font-size: 15px;
+    }
+
+    .footer h4{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:299px){
+    h3{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+}

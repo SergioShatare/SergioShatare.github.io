@@ -1,0 +1,902 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: #F9780F;
+    position: fixed;
+    padding: 1%;
+    width: 98%;
+    
+} 
+
+.logotipo h2{
+    color: white;
+}
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion .barra{
+    background-color: white;
+    display: flex;
+}
+
+.uno{
+    background-color: #f5caa8;
+    text-align: center;
+    display: table;
+}
+
+.uno a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dos{
+    background-color: #F9780F;
+    text-align: center;
+    display: table;
+}
+
+.dos a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tres{
+    background-color: #F9780F;
+    text-align: center;
+    display: table;
+}
+
+.tres a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.redes button{
+    background-color: white;
+    border-color: black;
+}
+
+/*fondo*/
+
+.fondo{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 23em;
+}
+
+.contenedor{
+      
+    width: 100%;
+}
+
+.contenido{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/*nosotros*/
+
+.nosotros{
+    display: flex;
+    background-color: #F9780F;
+}
+
+.parrafo{
+    display: table;
+    padding-top: 2%;
+}
+
+.parrafo p{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.imagen{
+    border-radius: 20%;
+    border-color: black;
+}
+
+/*fondo2*/
+
+.fondo2{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 10em;
+}
+
+.encuentranos{
+    width: 100%;
+    padding-top: 60px;
+}
+
+.encuentranos2{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/*mapa*/
+
+.mapa{
+    padding: 10px;
+    background-color: #F9780F;
+}
+
+/*footer*/
+
+footer{
+    background-color: #505050;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.general{
+    width: 100%;
+    display: flex;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.derechos{
+    text-align: center;
+    display: table;
+}
+.derechos a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*----------Media Queris----------*/
+
+@media screen and (min-width:1113px){
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 43.3%;
+        justify-content: end;
+    }
+
+    .navegacion .barra{
+        width: 80%;
+        height: 75%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .uno a{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 10%;
+        padding: 0 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+    }
+
+    .contenedor{
+        padding-top: 120px;
+    }
+
+    /*nosotros*/
+
+    .nosotros{
+        display: flex;
+        margin: 0 5%;
+        padding: 1% 50px;
+        justify-content: space-between;
+    }
+
+    .parrafo{
+        width: 49%;
+    }
+
+    .parrafo p{
+        font-size: 25px;
+    }
+
+    .imagen{
+        width: 50%;
+        border-radius: 20%;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 95px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:844px) and (max-width:1113px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 43.3%;
+        justify-content: end;
+    }
+
+    .navegacion .barra{
+        display: flex;
+        width: 100%;
+        height: 82%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 12%;
+        padding: 0 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+    }
+    
+    /*fondo*/
+
+    .contenedor{
+        padding-top: 120px;
+    }
+
+    /*nosotros*/
+
+    .nosotros{
+        display: flex;
+        margin: 0 5%;
+        padding: 1% 50px;
+        justify-content: space-between;
+    }
+
+    .parrafo{
+        width: 49%;
+    }
+
+    .parrafo p{
+        font-size: 20px;
+    }
+
+    .imagen{
+        width: 50%;
+        border-radius: 20%;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 85px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:559px) and (max-width:844px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 56.5%;
+        height: 50px;
+    }
+
+    .navegacion .barra{
+        width: 100%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 20%;
+        padding: 1% 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .contenedor{
+        padding-top: 140px;
+    }
+
+    /*nosotros*/
+
+    .nosotros{
+        display: flex;
+        margin: 0 5%;
+        padding: 1% 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parrafo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .parrafo p{
+        font-size: 20px;
+    }
+
+    .imagen{
+        width: 70%;
+        border-radius: 20%;
+    }
+
+    /*fondo2*/
+
+    .encuentranos{
+        padding-top: 40px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 75px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:387px) and (max-width:559px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 98%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 98%;
+        height: 50px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegacion .barra{
+        width: 90%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 100px;
+        padding: 1%;
+
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .contenedor{
+        padding-top: 180px;
+    }
+
+    .contenedor .contenido h1{
+        font-size: 20px;
+    }
+
+    /*nosotros*/
+
+    .nosotros{
+        display: flex;
+        margin: 0 5%;
+        padding: 1% 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parrafo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .parrafo p{
+        font-size: 15px;
+    }
+
+    .imagen{
+        width: 80%;
+        border-radius: 20%;
+    }
+
+    /*fondo2*/
+
+    .encuentranos{
+        padding-top: 40px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 0 10px;
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+
+    .general{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contacto h1{
+        font-size: 30px;
+    }
+
+    .contacto i{
+        font-size: 25px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 100%;
+        text-align: center;
+        display: table;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:387px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 98%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 98%;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .navegacion .barra{
+        width: 100%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 100px;
+        padding: 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .contenedor{
+        padding-top: 180px;
+    }
+
+    .contenedor .contenido h1{
+        font-size: 15px;
+    }
+
+    /*nosotros*/
+
+    .nosotros{
+        display: flex;
+        margin: 0 5%;
+        padding: 1% 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .parrafo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .parrafo p{
+        font-size: 10px;
+    }
+
+    .imagen{
+        width: 90%;
+        border-radius: 20%;
+    }
+
+    /*fondo2*/
+
+    .encuentranos{
+        padding-top: 50px;
+    }
+
+    .encuentranos2{
+        font-size: 10px;
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 0 10px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .general{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contacto h1{
+        font-size: 25px;
+    }
+
+    .contacto i{
+        font-size: 20px;
+    }
+
+    .contacto a{
+        font-size: 15px;
+    }
+
+    .derechos{
+        width: 100%;
+        text-align: center;
+        display: table;
+    }
+
+    .derechos i{
+        font-size: 15px;
+    }
+
+    .derechos a{
+        font-size: 15px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

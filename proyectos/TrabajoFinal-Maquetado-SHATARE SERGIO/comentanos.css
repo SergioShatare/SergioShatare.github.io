@@ -1,0 +1,797 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: #F9780F;
+    position: fixed;
+    padding: 1%;
+    width: 98%;
+    
+} 
+
+.logotipo h2{
+    color: white;
+}
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion .barra{
+    background-color: white;
+    display: flex;
+}
+
+.uno{
+    background-color: #F9780F;
+    text-align: center;
+    display: table;
+}
+
+.uno a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.dos{
+    background-color: #F9780F;
+    text-align: center;
+    display: table;
+}
+
+.dos a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tres{
+    background-color: #f5caa8;
+    text-align: center;
+    display: table;
+}
+
+.tres a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+}
+
+.redes button{
+    background-color: white;
+    border-color: black;
+}
+
+/*fondo*/
+
+.fondo{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+.contenido{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+/*footer*/
+
+footer{
+    background-color: #505050;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.general{
+    width: 100%;
+    display: flex;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.derechos{
+    text-align: center;
+    display: table;
+}
+.derechos a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*comentarios*/
+
+.comentarios{
+    margin: 2% 0;
+}
+
+.form_comentarios{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.form_comentarios textarea{
+    width: 100%;
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 84px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn{
+    background-color: #F9780F;
+    padding: 5px;
+    border-radius: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form_comentarios .btn:hover{
+    box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+}
+
+.media{
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+}
+
+.media img{
+    margin-right: 20px;
+}
+
+.media .nombre{
+    color: #F9780F;
+    margin-bottom: 0;
+}
+
+.media .nombre span{
+    font-size: 12px;
+    color: #b55200;
+    margin-left: 10;
+}
+
+.media .comentarios{
+    margin-top: 10px;
+}
+
+.media .botones{
+    margin-bottom: 10px;
+}
+
+.media .botones a{
+    text-decoration: none;
+    color: rgb(131, 65, 0);
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/*----------Media Queris----------*/
+
+@media screen and (min-width:1113px){
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 43.3%;
+        justify-content: end;
+    }
+
+    .navegacion .barra{
+        width: 80%;
+        height: 75%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .uno a{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 10%;
+        padding: 0 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+    }
+
+    .contenedor{
+        padding-top: 120px;
+    }
+
+    /*fondo*/
+
+    .fondo{
+        height: 12em;
+    }
+
+    .contenedor{
+        padding-top: 7em;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 95px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:844px) and (max-width:1113px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 43.3%;
+        justify-content: end;
+    }
+
+    .navegacion .barra{
+        display: flex;
+        width: 100%;
+        height: 82%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 12%;
+        padding: 0 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+    }
+
+    /*fondo*/
+
+    .fondo{
+        height: 12em;
+    }
+
+    .contenedor{
+        padding-top: 7em;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 85px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:559px) and (max-width:844px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 43.3%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        margin-left: 10%;
+        font-size: 40px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 56.5%;
+        height: 50px;
+    }
+
+    .navegacion .barra{
+        width: 100%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 20%;
+        padding: 1% 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 30px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .fondo{
+        height: 13em;
+    }
+
+    .contenedor{
+        padding-top: 9em;
+    }
+
+    /*footer*/
+
+    footer{
+        padding-top: 75px;
+    }
+
+    .contacto{
+        width: 50%;
+    }
+
+    .contacto i{
+        font-size: 30px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 50%;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:387px) and (max-width:559px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 98%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 98%;
+        height: 50px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegacion .barra{
+        width: 90%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 100px;
+        padding: 1%;
+
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .fondo{
+        height: 13em;
+    }
+
+    .contenedor{
+        padding-top: 10em;
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 0 10px;
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+
+    .general{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contacto h1{
+        font-size: 30px;
+    }
+
+    .contacto i{
+        font-size: 25px;
+    }
+
+    .contacto a{
+        font-size: 20px;
+    }
+
+    .derechos{
+        width: 100%;
+        text-align: center;
+        display: table;
+    }
+
+    .derechos i{
+        font-size: 20px;
+    }
+
+    .derechos a{
+        font-size: 20px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:387px){
+    
+    /*-----Encabezado-----*/
+
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*div1*/
+
+    .logotipo{
+        width: 98%;
+    }
+
+    .logotipo h2{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    /*div2*/
+
+    .navegacion{
+        width: 98%;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .navegacion .barra{
+        width: 100%;
+        padding: 1%;
+    }
+
+    .uno{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .dos{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .tres{
+        width: 31.3%;
+        margin: 0 1%;
+    }
+
+    .navegacion a{
+        font-size: 20px;
+    }
+
+    /*div3*/
+
+    .redes{
+        width: 100px;
+        padding: 1%;
+    }
+
+    .redes button{
+        width: 40%;
+        height: 100%;
+        margin: 0 4%;
+        border-radius: 10px;
+    }
+
+    .redes i{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+
+    /*fondo*/
+
+    .fondo{
+        height: 12em;
+    }
+
+    .contenedor{
+        padding-top: 9em;
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 0 10px;
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .general{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contacto h1{
+        font-size: 25px;
+    }
+
+    .contacto i{
+        font-size: 20px;
+    }
+
+    .contacto a{
+        font-size: 15px;
+    }
+
+    .derechos{
+        width: 100%;
+        text-align: center;
+        display: table;
+    }
+
+    .derechos i{
+        font-size: 15px;
+    }
+
+    .derechos a{
+        font-size: 15px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
