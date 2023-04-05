@@ -1,0 +1,35 @@
+#about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #1D1D1D;
+}
+
+#about .title{
+    margin: 10px 0px;
+    width: 100%;
+    background-color: #1D1D1D;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+#about .text{
+    width: 100%;
+    background-color: #1D1D1D;
+    padding: 30px;
+    text-align: center;
+    height: auto;
+    margin: 10px 0px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+#about .text i{
+    font-size: 30px;
+    margin: 0px 5px;
+    color: white;
+}
