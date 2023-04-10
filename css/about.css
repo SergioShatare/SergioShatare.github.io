@@ -1,0 +1,163 @@
+#about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #1D1D1D;
+}
+
+#about .title{
+    margin: 10px 0px;
+    background-color: #1D1D1D;
+    text-align: center;
+    padding: 15px 30px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+#about a .text{   
+    padding: 30px;
+    text-align: center;
+    height: auto;
+    color: #ffffff;
+}
+
+#about a .text i{
+    font-size: 30px;
+    margin: 0px 5px;
+    
+}
+
+#about a .text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about a .text-div h2{
+    color: #ffffff;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 700px) {  
+    #about .column-about1{
+        width: 100%;
+    }
+    #about .column-about2{
+        width: 100%;
+    }
+    #about .column-about2 .about-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #about .column-about1 .title{
+        width: 100%;
+    }
+    
+    #about .column-about2 .about-card a{
+        width: 100%;
+        position: relative;
+    }
+    
+    
+    #about .column-about2 .about-card a .text{
+        width: 100%;
+        box-shadow: 5px 5px 10px rgba(0,0,0,1);
+        background-color: #2A2A2A;
+    }
+    
+    #about .column-about2 .about-card a .text-div{
+        height: 100%;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background-color: #1D1D1D;
+    }
+    /*Animation Hover*/
+
+    #about .about-card a:hover .text-div{
+        opacity: 0;
+        transition: .5s;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    #about .column-about1{
+        width: 100%;
+    }
+    #about .column-about2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #about .column-about2 .about-card{
+        width: 100%;
+        margin: 1% 1%;
+        box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    }
+    #about{
+        align-items: center;
+    }
+    #about .column-about1 .title{
+        width: 100%;
+    }
+    
+    #about .column-about2 a{
+        width: 100%;
+        display: flex;
+    }
+    
+    #about .column-about2 .about-card a .text{
+        width: 50%;
+        background-color: #2A2A2A;
+    }
+    
+    #about .column-about2 .about-card a .text-div{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (min-width: 1001px){
+    #about .column-about1{
+        width: 100%;
+    }
+    #about .column-about2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #about .column-about2 .about-card{
+        width: 75%;
+        margin: 1% 1%;
+        box-shadow: 5px 5px 10px rgba(0,0,0,1);
+    }
+    #about{
+        align-items: center;
+    }
+    #about .column-about1 .title{
+        width: 100%;
+    }
+    
+    #about .column-about2 a{
+        width: 100%;
+        display: flex;
+    }
+    
+    #about .column-about2 .about-card a .text{
+        width: 50%;
+        background-color: #2A2A2A;
+    }
+    #about .column-about2 .about-card a .text-div{
+        width: 50%;
+    }   
+}
