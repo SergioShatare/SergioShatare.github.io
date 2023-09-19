@@ -1,0 +1,104 @@
+.card {
+    width: 260px;
+    height: 420px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.card div {
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.nombre-producto {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.precio-producto {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.precio-producto .marcado {
+    margin-bottom: 5px;
+    text-decoration:line-through;
+    color: red;
+}
+
+.precio-producto h4 {
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.botones-producto {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-producto .comprar {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    height: max-content;
+    width: max-content;
+}
+
+.botones-producto .corazon, .ojo {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #EDEDED;
+    color: black;
+    height: max-content;
+    width: max-content;
+}
+
+.botones-producto .corazon {
+    margin: 0px 5px;
+}
+
+.card .oferta{
+    position: absolute;
+    padding: 10px;
+    background-color: #ff7300;
+    width: max-content;
+    top: 20px;
+    right: 0%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+/*ANIMACIONES*/
+
+.botones-producto .ojo:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.botones-producto .corazon:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}

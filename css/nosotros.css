@@ -1,0 +1,178 @@
+@media screen and (min-width: 1050px) {
+    .div-nosotros {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-servicio {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+    
+    .contenido-servicio {
+        width: 400px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    .contenido-servicio p {
+        font-style: italic;
+    }
+    
+    .contenido-servicio p i {
+        color: rgb(51, 190, 0);
+    }
+    
+    .contenido-servicio button {
+        padding: 10px 30px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #EDEDED;
+        color: black;
+        border: none;
+        border: 2px solid black;
+        transition: 0.5s;
+    }
+    
+    .contenido-servicio button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .imagen-servicio {
+        height: 100%;
+    }
+    
+    .imagen-servicio img {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 1050px) {
+    .div-nosotros {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-servicio {
+        width: 400px;
+        padding: 0px 10px;
+        margin-bottom: 40px;
+    }
+    
+    .contenido-servicio {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    .contenido-servicio p {
+        font-style: italic;
+    }
+    
+    .contenido-servicio p i {
+        color: rgb(51, 190, 0);
+    }
+    
+    .contenido-servicio button {
+        padding: 10px 30px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #EDEDED;
+        color: black;
+        border: none;
+        border: 2px solid black;
+        transition: 0.5s;
+    }
+    
+    .contenido-servicio button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .imagen-servicio {
+        width: 100%;
+    }
+    
+    .imagen-servicio img {
+        width: 100%;
+    }
+
+    
+
+    #venta, #servicio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .div-nosotros {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-servicio {
+        width: 100%;
+        padding: 0px 20px;
+        margin-bottom: 40px;
+    }
+    
+    .contenido-servicio {
+        width: 100%;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    .contenido-servicio p {
+        font-style: italic;
+    }
+    
+    .contenido-servicio p i {
+        color: #33be00;
+    }
+    
+    .contenido-servicio button {
+        padding: 10px 30px;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: #EDEDED;
+        color: black;
+        border: none;
+        border: 2px solid black;
+        transition: 0.5s;
+    }
+    
+    .contenido-servicio button:hover {
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .imagen-servicio {
+        width: 100%;
+    }
+    
+    .imagen-servicio img {
+        width: 100%;
+    }
+
+    
+
+    #venta, #servicio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
