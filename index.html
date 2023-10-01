@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computo San Agustin</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/inicio.css">
+    <link rel="stylesheet" type="text/css" href="css/encabezado.css">
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="css/servicios.css">
+    <link rel="stylesheet" type="text/css" href="css/pie.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+</head>
+<body>
+    
+    <header>
+        <div id="bloque" onclick="cerrarMenu()"></div>
+        <div class="responsive-encabezado">
+            <div class="logo">
+                <div class="imagen"><a href="index.html"><img src="img/logo.png"></a></div>
+                <div class="nombre"><a href="index.html"><span>COMPUTO SAN AGUSTIN</span></a></div>
+            </div>
+            <div class="navegacion" id="menu">
+                <button class="open" onclick="abrirMenu()" style="cursor: pointer;" id="abrir"><i class="fa-solid fa-bars"></i></button>
+                <a href="index.html" style="color: #7b7b7b;" class="link"><i class="fa-solid fa-house"></i><span> Inicio</span></a>
+                <a href="html/servicio.html" class="link"><i class="fa-solid fa-screwdriver"></i><span> Servicio</span></a>
+                <a href="html/tienda.html" class="link"><i class="fa-solid fa-shop"></i><span> Tienda</span></a>
+                <a href="#" class="link"><i class="fa-solid fa-cart-shopping"></i><span> Carrito</span></a>
+                <a href="#" class="link"><i class="fa-solid fa-heart"></i><span> Favoritos</span></a>
+                <a href="#" class="iniciarSesion">Iniciar Sesión</a>
+                <a href="#" class="registrarse">Registrarse</a>
+                <button class="close" onclick="cerrarMenu()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+    </header>
+    
+    <div style="width: 100%; height: 75px;"></div>
+    <div class="portada">
+        <div class="portada-responsive">
+            <div class="presentacion">
+                <p>Bienvenidos a</p>
+                <h1>COMPUTO SAN AGUSTIN</h1>
+                <p>Servicio técnico, instalaciones de cámaras y venta de productos tecnologicos.</p>
+                <br>
+                <button>Contáctanos</button>
+                <div><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="responsive-body" style="margin-bottom: 40px;">
+            <h4 class="seccion">NUESTRAS OFERTAS</h4>
+            <div class="control-slider">
+                <div class="controles"><div>TECLADO</div><button class="boton-left"><i class="fa-solid fa-chevron-left"></i></button><button style="margin-left: 20px;" class="boton-right"><i class="fa-solid fa-chevron-right"></i></button></div>
+                <div class="slider">
+                    <div class="slider-contenido">
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/teclado_mecanico_micronics_GK100.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado mecanico micronics GK100</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.220.00</h4>
+                                <h4>S/.209.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado_mecanico_HA_KG927_spectre.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado mecanico HA-KG927 spectre</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.185.00</h4>
+                                <h4>S/.175.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado_Mecanico_CYB_GK1001.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado Mecanico CYB GK1001</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.160.00</h4>
+                                <h4>S/.152.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado membrana HA-K923 tomcat.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado membrana HA-K923 tomcat</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.150.00</h4>
+                                <h4>S/.142.50</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado mecanico halion HA-K911 castor.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado mecanico halion HA-K911 castor</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.150.00</h4>
+                                <h4>S/.142.50</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado Mecanico KG X1000.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado Mecanico KG X1000</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.98.00</h4>
+                                <h4>S/.93.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado Mecanico CBX GK 1001.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado Mecanico CBX GK 1001</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.98.00</h4>
+                                <h4>S/.93.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/teclado/Teclado Mecanico ENK 1001.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Teclado Mecanico ENK 1001</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.85.00</h4>
+                                <h4>S/.81.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="control-slider" style="margin: 40px 0px;">
+                <div class="controles"><div>MOUSE</div><button class="mouse-left"><i class="fa-solid fa-chevron-left"></i></button><button style="margin-left: 20px;" class="mouse-right"><i class="fa-solid fa-chevron-right"></i></button></div>
+                <div class="slider" id="mouses">
+                    <div class="slider-contenido">
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Spectrum Rivals 2.4 GHz.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Spectrum Rivals 2.4 GHz</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.130.00</h4>
+                                <h4>S/.123.50</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Micronics Alien 2.4 GHz MIC M734WL.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Micronics Alien 2.4 GHz MIC M734WL</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.75.00</h4>
+                                <h4>S/.71.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Micronics Ranger RX MIC M822x.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Micronics Ranger RX MIC M822x</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.75.00</h4>
+                                <h4>S/.71.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse STORM TGB LINE 5 Botones 1200 - 3200DPI.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse STORM TGB LINE 5 Botones 1200 - 3200DPI</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.65.00</h4>
+                                <h4>S/.62.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Gamer Mirage MIC M803.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Gamer Mirage MIC M803</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.60.00</h4>
+                                <h4>S/.57.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Lumiere MIC M811.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Lumiere MIC M811</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.50.00</h4>
+                                <h4>S/.47.50</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Gamer EKM-300 ENKORE ACTIVE.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Gamer EKM-300 ENKORE ACTIVE</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.46.00</h4>
+                                <h4>S/.44.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/mouse/Mouse Inalambrico storm.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Mouse Inalambrico storm</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.45.00</h4>
+                                <h4>S/.43.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="control-slider">
+                <div class="controles"><div>AUDIFONO</div><button class="monitor-left"><i class="fa-solid fa-chevron-left"></i></button><button style="margin-left: 20px;" class="monitor-right"><i class="fa-solid fa-chevron-right"></i></button></div>
+                <div class="slider" id="monitores">
+                    <div class="slider-contenido">
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono Requiem Elite version 7.1.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono Requiem Elite version 7.1</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.220.00</h4>
+                                <h4>S/.209.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Auricular FalcoG gaming headset RGB.jpg">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Auricular FalcoG gaming headset RGB</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.195.00</h4>
+                                <h4>S/.185.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono Phantom RGB line.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono Phantom RGB line</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.135.00</h4>
+                                <h4>S/.128.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono sparko MIC HG808.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono sparko MIC HG808</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.135.00</h4>
+                                <h4>S/.128.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono Mercury 5.1.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono Mercury 5.1</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.130.00</h4>
+                                <h4>S/.123.50</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono Micronics Ludico MIC HG801R.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono Micronics Ludico MIC HG801R</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.125.00</h4>
+                                <h4>S/.119.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono micronics therodactil V MIC HG800V.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono micronics therodactil V MIC HG800V</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.105.00</h4>
+                                <h4>S/.100.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="oferta3"><h6>OFERTA - 5%</h6></div>
+                            <div class="imagen">
+                                <img src="img/audifono/Audifono Micronics Corsario MIC HG805 P4.png">
+                            </div>
+                            <div class="nombre-producto">
+                                <p>Audifono Micronics Corsario MIC HG805 P4</p>
+                            </div>
+                            <div class="precio-producto">
+                                <h4 class="marcado">S/.95.00</h4>
+                                <h4>S/.90.00</h4>
+                            </div>
+                            <div class="botones-producto">
+                                <button class="comprar"><i class="fa-sharp fa-solid fa-cart-shopping"></i> Guardar al carrito</button><button class="corazon"><i class="fa-solid fa-heart"></i></button><button class="ojo"><i class="fa-solid fa-eye"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <a href="#" class="up"><i class="fa-solid fa-arrow-up"></i></a>
+    <footer>
+        <div class="responsive-footer">
+            <div class="div-footer">
+                <h3>Programadores Web</h3>
+                <br>
+                <a href="#">@Sergio_Shatare</a>
+                <br><br>
+                <a href="#">@Eduardo_Morales</a>
+            </div>
+            <div class="div-footer">
+                <h3>Acerca de</h3>
+                <br>
+                <a onclick="abrirVentana(); nosotros()">Nosotros</a>
+                <br><br>
+                <a onclick="abrirVentana();politica()">Politicas de privacidad</a>
+                <br><br>
+                <a onclick="abrirVentana();terminos()">Términos y condiciones</a>
+                <br><br>
+                <a onclick="abrirVentana();ayuda()">Ayuda</a>
+            </div>
+            <div class="div-footer">
+                <h3>Nuestras Tiendas</h3>
+                <br>
+                <a target="_blank" href="https://maps.app.goo.gl/BVxCfPCXfmne3DJFA">Tienda 1 (Puente Piedra)</a>
+                <br><br>
+                <a target="_blanks" href="https://maps.app.goo.gl/9ffFTGgAHrLnmh819">Tienda 2 (Comas)</a>
+            </div>
+            <div class="div-footer" id="redes">
+                <h3>Redes Sociales</h3>
+                <br>
+                <div>
+                    <!--<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>-->
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <!--<a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>-->
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="copy">
+                <h5>Copyright @ 2023 ComputoSanAgustin</h5>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<div class="div-acerca">
+    <div class="acerca">
+        <div class="barra"><button id="closeAcerca" onclick="cerrarVentana()"><i class="fa-solid fa-xmark"></i></button></div>
+        <div class="acerca-contenido">
+            <div class="columna1">
+                <div><button id="btnNostros" onclick="nosotros()">Nosotros</button></div>
+                <div><button id="btnPolitica" onclick="politica()">Politicas de Privacidad</button></div>
+                <div><button id="btnTerminos" onclick="terminos()">Términos y Condiciones</button></div>
+                <div><button id="btnAyuda" onclick="ayuda()">Ayuda</button></div>
+            </div>
+            <div class="columna2">
+                <div id="nosotros">
+                    <div>
+                        <h2>COMPUTO SAN AGUSTIN</h2>
+                        <br>
+                        <p>Computo San Agustin es una Microempresa acerca de la reventa a por menor de productos tecnologicos, servicio tecnico y instalaciones de cámaras por toda la zona cono Norte de Lima - Peru.</p>
+                        <br>
+                        <h3>Nuestro equipo de trabajo</h3>
+                        <p>En el equipo Computo San Agustin tenemos personal de soporte tecnico capacitados y con los conocimientos necesarios para realizar cualquier necesidad que necesite sus equipos tecnologicos.</p>
+                        <p>Contamos con equipo de envio de sus productos comprados por envio a domicilio.</p>
+                        <p>Tenemos desarrolladores webs para la implementacion de la plataforma web de compras y servicios https://www.computosanagustin.com/.</p>
+                        <br>
+                        <h3>Nuestra misión</h3>
+                        <p>Nuestra misión es proporcionar soluciones integrales y confiables en el ámbito de la tecnología, ofreciendo servicios de reparación y mantenimiento de PC, laptops, impresoras y la venta de productos electrónicos de alta calidad. Nos comprometemos a satisfacer las necesidades tecnológicas de nuestros clientes, brindando un servicio eficiente y profesional, respaldado por un equipo de expertos altamente capacitados. Nuestra pasión por la tecnología y nuestro compromiso con la excelencia nos impulsa a ser líderes en la industria, ayudando a nuestros clientes a aprovechar al máximo sus dispositivos y a mantenerse actualizados en un mundo cada vez más digital.</p>
+                        <br>
+                        <h3>Nuestra visión</h3>
+                        <p>Buscamos convertirnos en la principal referencia en soluciones tecnológicas en nuestra región, reconocidos por la calidad de nuestros servicios de reparación y mantenimiento, así como por la amplia gama de productos electrónicos innovadores que ofrecemos. Queremos ser la elección natural para individuos y empresas que buscan un socio confiable para sus necesidades tecnológicas. Nuestra visión incluye la expansión constante de nuestros conocimientos y servicios, la adopción de tecnologías emergentes y la contribución a un mundo más conectado y eficiente a través de la excelencia en la tecnología.</p>
+                    </div>
+                </div>
+                <div id="politica">
+                    <div>
+                        <h2>POLÍTICA DE PRIVACIDAD</h2>
+                        <br>
+                        <p>El presente Política de Privacidad establece los términos en que Computo San Agustin usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.</p>
+                        <br>
+                        <h3>Información que es recogida</h3>
+                        <p>Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,  información de contacto como  su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.</p>
+                        <br>
+                        <h3>Uso de la información recogida</h3>
+                        <p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios.  Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.</p>
+                        <p>Computo San Agustin está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.</p>
+                        <br>
+                        <h3>Cookies</h3>
+                        <p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.</p>
+                        <p>Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione directamente noticias. Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.</p>
+                        <br>
+                        <h3>Enlaces a Terceros</h3>
+                        <p>Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.</p>
+                        <br>
+                        <h3>Control de su información personal</h3>
+                        <p>En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web.  Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico.  En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.</p>
+                        <p>Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.</p>
+                        <p>Computo San Agustin Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.</p>
+                    </div>
+                </div>
+                <div id="terminos">
+                    <div>
+                        <h2>TÉRMINOS Y CONDICIONES</h2>
+                        <br>
+                        <p>El presente Política de Privacidad establece los términos en que Computo San Agustin usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.</p>
+                        <br>
+                        <h3>Información que es recogida</h3>
+                        <p>Nuestro sitio web podrá recoger información personal por ejemplo: Nombre,  información de contacto como  su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.</p>
+                        <br>
+                        <h3>Uso de la información recogida</h3>
+                        <p>Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios.  Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.</p>
+                        <p>Computo San Agustin está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.</p>
+                        <br>
+                        <h3>Cookies</h3>
+                        <p>Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.</p>
+                        <p>Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione directamente noticias. Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.</p>
+                        <br>
+                        <h3>Enlaces a Terceros</h3>
+                        <p>Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.</p>
+                        <br>
+                        <h3>Control de su información personal</h3>
+                        <p>En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web.  Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico.  En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.</p>
+                        <p>Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.</p>
+                        <p>Computo San Agustin Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.</p>
+                    </div>
+                </div>
+                <div id="ayuda">
+                    <div>
+                        <h2>AYUDA</h2>
+                        <br>
+                        <p>Alguna duda, inconveniete o problema no dude en comunicarnos con nosotros, resolveremos todas sus necesidades.</p>
+                        <p>Toda prueba de servicio lo podemos comprobar con su boleta, por seguridad para saber que fue nuestro cliente.</p>
+                        <br>
+                        <br>
+                        <a href="#">CONTACTANOS</a>
+                        <style>
+                            #ayuda a {
+                                font-size: 15px;
+                                border: none;
+                                padding: 20px;
+                                background-color: white;
+                                text-decoration: none;
+                                color: black;
+                            }
+                            #ayuda a:hover {
+                                background-color: black;
+                                color: white;
+                                cursor: pointer;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/encabezado.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/pie.js"></script>
+<script src="https://kit.fontawesome.com/b5513bc78e.js" crossorigin="anonymous"></script>
+</html>

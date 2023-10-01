@@ -1,0 +1,246 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #353535;
+}
+
+
+
+.responsive-footer {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsive-footer .div-footer {
+    padding: 20px;
+}
+
+.responsive-footer .div-footer h3 {
+    color: #EDEDED;
+    letter-spacing: 1px;
+}
+
+.responsive-footer .div-footer a {
+    color: #EDEDED;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.responsive-footer .copy {
+    width: 100%;
+    text-align: center;
+}
+
+#redes div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#redes div a {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #EDEDED;
+    color: #353535;
+    transition: 0.2s;
+}
+
+.responsive-footer .copy {
+    width: 100%;
+    padding: 20px;
+    color: #EDEDED;
+}
+
+@media screen and (min-width: 1000px) {
+    .responsive-footer .div-footer {
+        width: 25%;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    .responsive-footer .div-footer {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .responsive-footer .div-footer {
+        width: 100%;
+    }
+    
+}
+
+/*ANIMACIONES*/
+
+.responsive-footer .div-footer a:hover {
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+#redes div a:hover {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+
+/*ACERCA DE*/
+
+.div-acerca {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    position: fixed;
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.acerca {
+    background-color: #EDEDED;
+}
+
+.barra {
+    width: 100%;
+    text-align: right;
+    height: 40px;
+}
+
+.barra button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #EDEDED;
+}
+
+.barra button i {
+    font-size: 20px;
+}
+
+.acerca-contenido {
+    width: 100%;
+    height: calc(100% - 40px);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.acerca-contenido .columna1 div button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.acerca-contenido .columna2 #nosotros, #politica, #terminos, #ayuda {
+    width: 100%;
+    height: 100%;
+}
+
+.acerca-contenido .columna2 #nosotros div, #politica div, #terminos div, #ayuda div {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 20px;
+}
+
+.acerca-contenido .columna2 div {
+    width: 100%;
+}
+
+.acerca-contenido .columna2 div h2 {
+    text-align: center;
+}
+
+/*ANIMACIONES ACERCA DE*/
+
+.barra button:hover {
+    background-color: #dc0000;
+}
+
+.acerca-contenido .columna1 button:hover {
+    background-color: black;
+    color: white;
+}
+
+/*MEDIA QUERIS ACERCA DE*/
+
+@media screen and (min-width: 1000px) {
+    .acerca {
+        width: 1000px;
+    }
+}
+
+@media screen and (min-height: 500px) {
+    .acerca {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .acerca {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .acerca {
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 750px) {
+    .acerca-contenido .columna1 {
+        width: 300px;
+        height: 100%;
+        border-right: 1px solid black;
+        padding-right: 20px;
+    }
+    .acerca-contenido .columna2 {
+        width: calc(100% - 300px);
+        height: 100%;
+        padding-left: 20px;
+    }
+    .acerca-contenido .columna1 div {
+        width: 100%;
+        margin-bottom: 1px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .acerca-contenido .columna1 {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .acerca-contenido .columna2 {
+        width: 100%;
+        height: 325px;
+    }
+    .acerca-contenido .columna1 div {
+        width: max-content;
+        
+    }
+}
