@@ -1,0 +1,144 @@
+#contact{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-div{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div .contact-div-responsive{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.contact-div .contact-div-responsive h1{
+    font-weight: bolder;
+}
+
+.contact-div .contact-div-responsive .contacts-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-div .contact-div-responsive .contacts-div .contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.contact-div .contact-div-responsive .contacts-div .contacts a{
+    width: 90px;
+    color: white;
+    background-color: aqua;
+    height: 80px;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.contact-div .contact-div-responsive .contacts-div .contacts a div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-div .contact-div-responsive .botton-home{
+    width: 100%;
+}
+
+.contact-div .contact-div-responsive .botton-home button{
+    padding: 10px 30px;
+    margin-top: 60px;
+    background-color: #2A2A2A;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-div .contact-div-responsive .botton-home button i{
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+#facebook{
+    background-color: #1877F2;
+}
+#instagram{
+    background: radial-gradient( circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf );
+}
+#twitter{
+    background-color: #1DA1F2;
+}
+#github{
+    background-color: #14191E;
+}
+#linkedin{
+    background-color: #1877F2;
+}
+#envelope{
+    background-color: #E02E23;
+}
+#pinterest{
+    background-color: #DA0021;
+}
+#whatsapp{
+    background-color: #1AC93E;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 800px) {
+    .contact-div .contact-div-responsive .contacts{
+        width: 100%;
+    }
+    .contact-div .contact-div-responsive h1{
+        font-size: 50px;
+    }
+    .contact-div .contact-div-responsive p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .contact-div .contact-div-responsive .contacts{
+        width: 360px;
+    }
+    .contact-div .contact-div-responsive h1{
+        font-size: 45px;
+    }
+    .contact-div .contact-div-responsive p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-div .contact-div-responsive .contacts{
+        width: 180px;
+    }
+    .contact-div .contact-div-responsive h1{
+        font-size: 45px;
+    }
+    .contact-div .contact-div-responsive p{
+        font-size: 20px;
+    }
+}
+
+/*ANIMACION*/
+
+.contact-div .contact-div-responsive .botton-home button:hover{
+    transition: 0.5s;
+    transform: translatey(-10px);
+}
+
+.contact-div .contact-div-responsive .contacts-div .contacts a:hover{
+    transition: 0.5s;
+    transform: translatey(-10px);
+}
