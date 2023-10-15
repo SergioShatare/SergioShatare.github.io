@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #282828
+}
+
+.cuerpo {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #101010;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    height: 45px;
+    top: 0;
+}
+
+.encabezado button {
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    height: 45px;
+    background-color: #101010;
+    transition: 0.5s;
+}
+
+.encabezado button:active {
+    background-color: #767676;
+    transition: 0.5s;
+}
+
+.navegacion {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    background-color: #101010;
+    text-align: center;
+}
+
+.navegacion a {
+    border: none;
+    width: 33.3%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: #101010;
+}
+
+.navegacion a:active {
+    background-color: #767676;
+    transition: 0.5s;
+}
+
+.contenido {
+    width: 100%;
+    padding: 10px;
+}
+
+.contenido {
+    width: 100%;
+    height: calc(100% - 45px);
+    overflow-y: scroll;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo  p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.titulo  div{
+    display: flex;
+    gap: 5px;
+}
+
+.titulo  div button{
+    border: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: #2D2D2D;
+    transition: 0.5s;
+}
+
+.titulo  div button:active {
+    background-color: #767676;
+    transition: 0.5s;
+}
+
+.slide,
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5,
+.slide6,
+.slide7 {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 10px 0 ;
+    scroll-behavior: smooth;
+}
+
+.slide .slide-contenido,
+.slide1 .slide-contenido,
+.slide2 .slide-contenido,
+.slide3 .slide-contenido,
+.slide4 .slide-contenido,
+.slide5 .slide-contenido,
+.slide6 .slide-contenido,
+.slide7 .slide-contenido {
+    width: 980px;
+    display: flex;
+    gap: 10px;
+}
+
+.pelicula {
+    width: 100px;
+    height: 150px;
+}
+
+.pelicula img {
+    width: 100%;
+}
+
+.favoritos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.peli-favorito {
+    width: calc(33.33333333333333% - 6.7px);
+}
+
+.peli-favorito img {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+.splash {
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    animation-name: spla;
+    animation-duration: 1s;
+    display: flex;
+    animation-iteration-count: 1;
+    top: -100%;
+}
+
+@keyframes spla {
+    0% {top: 0;}
+    50% {top: 0;}
+    100% {top: -100%;}
+}
+
+
+.splash h1{
+    font-size: 50px;
+    color: #E50913;
+}
+
+@media screen and (min-width: 350px) {
+    .cuerpo {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cuerpo {
+        width: 100%;
+    }
+}
+
+@media screen and (min-height: 700px) {
+    .cuerpo {
+        height: 700px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .cuerpo {
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 350px) {
+    .encabezado {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .encabezado {
+        width: 100%;
+    }
+}
