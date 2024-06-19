@@ -1,1 +1,1 @@
-Esto solo es una prueba de diseño de Navbar para mi Portafolio
+Se descargo la extencion Minify para VSCode para la minificacion del codigo
